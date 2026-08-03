@@ -1,10 +1,10 @@
 <?php
     //step1 -create a connection to your database
     //procedural - mysqli
-    $hostname = 'localhost';
-    $user = 'root';
-    $password = '';
-    $database = 'rwdd2307';
+    $hostname = 'sql306.infinityfree.com';  // from their panel
+    $user = 'if0_42566626';
+    $password = 'ICUgyTpYulKRV';
+    $database = 'if0_42566626_db_name';
    $connection= mysqli_connect($hostname,$user,$password,$database);
 
     if($connection === false){
