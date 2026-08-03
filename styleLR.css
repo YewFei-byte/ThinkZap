@@ -1,0 +1,166 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #fff9c4;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 10px;
+}
+
+.container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    background: white;
+    text-align: center;
+    width: 500px;
+    margin-top:0;
+}
+
+.container h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.container form input,
+.container form select{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 17px;
+    margin: 8px 0;
+    background:white;
+    border-radius: 5px;
+}
+
+.container form select option{
+    background: white;
+}
+
+.container form .registerBtn{
+    background: #ff9800;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container form .registerBtn:hover{
+    background:rgb(215, 86, 21);
+    color: white;
+}
+
+.container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.container form p a{
+    color: goldenrod;
+}
+
+.container form .loginBtn{
+    background: #ff9800;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container form .loginBtn:hover{
+    background:rgb(215, 86, 21);
+    color: white;
+}
+
+.container form .errorMsg{
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+ }
+
+ .img {
+width: 400px;
+border-radius: 50%;
+}
+
+.container .content{
+    text-align: center;
+}
+
+.container form .resetBtn{
+    background: #ff9800;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container form .resetBtn:hover{
+    background:rgb(215, 86, 21);
+    color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    width: 100%; 
+    background-color: #fff9c4;
+    padding: 10px;
+}
+
+.content {
+    flex: 1; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.about-us-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto; 
+}
+
+.about-us-footer h2 {
+    margin-bottom: 10px;
+}
+
+.about-us-footer p {
+    font-size: 14px;
+}
+
+.about-us-footer table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-collapse: collapse; 
+}
+
+.about-us-footer td {
+    padding: 8px;
+    text-align: left;
+}
+
+.about-us-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+

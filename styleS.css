@@ -1,0 +1,142 @@
+body {
+    background-color: #fff9c4;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 200px;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 450px;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: black;
+}
+
+input[type="text"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #ff8c42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e07a34;
+}
+
+button#next-button {
+    margin-right: 10px;
+}
+
+button#submit-button {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content { 
+    flex: 1; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.about-us-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto; 
+}
+
+.about-us-footer h2 { 
+    margin-top: -20px;
+    margin-bottom: 5px;
+    font-size: 55px;
+}
+
+.about-us-footer table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.about-us-footer td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid;
+    border-color: black;
+    border: none;
+}
+
+.about-us-footer a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}

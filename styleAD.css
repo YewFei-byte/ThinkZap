@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9c4 !important;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-container img {
+    width: 200px;
+}
+
+
+.ProfilePic {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.text {
+    width: 500px;
+}
+
+.top-center-image {
+    position: absolute;
+    top: 10px;
+}
+
+.top-right-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.table {
+    border-spacing: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.content {
+    flex: 1; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.about-us-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto; 
+}
+
+.about-us-footer h2 {
+    margin-bottom: 10px;
+}
+
+.about-us-footer p {
+    font-size: 14px;
+}
+
+.about-us-footer table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-collapse: collapse; 
+}
+
+.about-us-footer td {
+    padding: 8px;
+    text-align: left;
+}
+
+.about-us-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.quiz-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.quiz-table th, .quiz-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.quiz-table th {
+    background-color: #f2f2f2;
+}

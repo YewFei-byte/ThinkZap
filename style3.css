@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff9c4; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    top: 20px;
+    margin-bottom: 50px;
+    color: #000000; 
+    text-align: center;
+    background-color:#fd9c00;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000; 
+    text-align: center;
+}
+
+#survey-builder {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    margin-bottom: 30px;
+    border: 2px solid #fbc02d;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #fbc02d;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #fbc02d; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #f9a825; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#options-container {
+    margin-top: 15px;
+}
+
+#option-input {
+    width: calc(100% - 110px);
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#options-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#options-list li {
+    background-color: #fffde7; 
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#options-list li span {
+    margin-right: auto;
+}
+
+#options-list li button {
+    background: none;
+    border: none;
+    color: #d32f2f; /* Red for delete button */
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#survey-form {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    border: 2px solid #fbc02d; 
+}
+
+#survey-form div {
+    margin-bottom: 20px;
+}
+
+#survey-form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#survey-form input[type="radio"],
+#survey-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+img.remove-question {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px; 
+    height: auto;
+}
+
+.back-container {
+    position: fixed;
+    top: 50%;
+    left: 10px; 
+}
+
+.back-btn {
+    width: 40px; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
+

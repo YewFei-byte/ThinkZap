@@ -1,0 +1,142 @@
+html, body{
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: column; 
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff9c4;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.content{
+    flex-grow: 1; 
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.quiz-selection{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 120px;            
+    font-size: 40px;          
+    text-align: center;       
+    margin-bottom: 20px;      
+    color: black;             
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+
+#obj, #sub, #mix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 10px; 
+    padding: 12px 40px;
+    width: 250px; 
+    height: 70px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+    box-sizing: border-box;
+    outline: none;
+}
+
+#obj{
+    background-color: #eedc82;
+}
+
+#sub{
+    background-color: #ffbf00;
+}
+
+#mix{
+    background-color: orange;
+}
+
+#obj:hover, #sub:hover, #mix:hover{
+    background-color: #d4c14e;
+    transform: scale(1.05);
+    box-shadow: none;
+    outline: none; 
+}
+
+
+#user{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#setting{
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+}
+
+
+.about-us-footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto; 
+}
+
+.about-us-footer h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.about-us-footer p{
+    font-size: 14px;
+}
+
+.about-us-footer table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.about-us-footer td{
+    padding: 8px;
+    text-align: left;
+    border: none;
+}
+
+.about-us-footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

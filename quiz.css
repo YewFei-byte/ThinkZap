@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    border: 2px solid #fbc02d; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a202c;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #4a5568;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #f3c325;
+    box-shadow: 0 0 0 2px rgba(250, 219, 42, 0.578);
+}
+
+button {
+    background-color: #f9be29;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #e2a60f;
+}
+
+.success-message, .error-message {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+#options-container {
+    display: none;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px; 
+    height: auto;
+}
+
+.back-container {
+    position: fixed;
+    top: 50%;
+    left: 10px; 
+}
+
+.back-btn {
+    width: 40px; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
